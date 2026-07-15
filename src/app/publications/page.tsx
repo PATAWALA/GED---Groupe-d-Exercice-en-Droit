@@ -1,4 +1,4 @@
-import LeadCaptureForm from '@/components/forms/LeadCaptureForm';
+import LeadCaptureForm from '../../components/forms/LeadCaptureForm';
 
 export default function Publications() {
   return (
