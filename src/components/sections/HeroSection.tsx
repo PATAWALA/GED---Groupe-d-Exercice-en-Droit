@@ -1,20 +1,25 @@
 import Button from '@/components/ui/Button';
 
-export default function FinalCTASection() {
+export default function HeroSection() {
   return (
-    <section className="bg-gradient-to-br from-royal-blue to-blue-900">
-      <div className="max-w-4xl mx-auto px-4 py-20 sm:py-28 text-center">
-        <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-          Prêt à faire la différence ?
-        </h2>
-        <p className="mt-6 text-lg text-blue-100 max-w-2xl mx-auto">
-          Rejoignez la communauté GED et donnez un nouvel élan à votre parcours juridique.
+    <section className="bg-white">
+      <div className="max-w-4xl mx-auto px-4 py-20 sm:py-32 text-center">
+        <span className="inline-block px-4 py-1 mb-6 text-xs font-medium tracking-wide uppercase bg-royal-blue/10 text-royal-blue rounded-full">
+          Groupe d'Exercice en Droit (GED)
+        </span>
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
+          Rendre le droit accessible.
+          <br />
+          <span className="text-royal-blue">Propulser votre réussite.</span>
+        </h1>
+        <p className="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-slate-600 leading-relaxed">
+          Préparation aux concours, formations en art oratoire, synthèses fiscales (TEM 2026) et conseil personnalisé pour étudiants et professionnels.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-          <Button variant="primary" href="/contact">
-            Nous contacter
+          <Button variant="primary" href="/formations">
+            Réserver ma place aux formations
           </Button>
-          <Button variant="outline" href="/publications" className="border-white text-white hover:bg-white hover:text-royal-blue">
+          <Button variant="outline" href="/publications">
             Télécharger la TEM 2026
           </Button>
         </div>
