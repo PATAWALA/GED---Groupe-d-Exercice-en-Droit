@@ -12,7 +12,7 @@ export default function AdminDashboard() {
         <div className="flex items-center justify-between mb-8">
           <div>
             <h1 className="text-3xl font-bold text-slate-900">Tableau de bord</h1>
-            <p className="text-slate-600 mt-1">Suivez vos nouveaux inscrits en temps réel.</p>
+            <p className="text-slate-600 mt-1">Suivez vos nouveaux inscrits en temps reel.</p>
           </div>
           <span className="px-4 py-2 bg-royal-blue/10 text-royal-blue text-sm font-medium rounded-full">
             {leadsFictifs.length} nouvelles demandes
@@ -23,7 +23,7 @@ export default function AdminDashboard() {
             <thead className="bg-light-bg">
               <tr>
                 <th className="px-6 py-4 text-left text-xs font-semibold text-slate-600 uppercase tracking-wider">Nom</th>
-                <th className="px-6 py-4 text-left text-xs font-semibold text-slate-600 uppercase tracking-wider">Prénom</th>
+                <th className="px-6 py-4 text-left text-xs font-semibold text-slate-600 uppercase tracking-wider">Prenom</th>
                 <th className="px-6 py-4 text-left text-xs font-semibold text-slate-600 uppercase tracking-wider">Email</th>
                 <th className="px-6 py-4 text-left text-xs font-semibold text-slate-600 uppercase tracking-wider">WhatsApp</th>
                 <th className="px-6 py-4 text-left text-xs font-semibold text-slate-600 uppercase tracking-wider">Date</th>
@@ -35,7 +35,7 @@ export default function AdminDashboard() {
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-slate-900">{lead.nom}</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-slate-600">{lead.prenom}</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-slate-600">{lead.email}</td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-slate-600">{lead.whatsapp || '—'}</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-slate-600">{lead.whatsapp || 'â€”'}</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-slate-600">{lead.date}</td>
                 </tr>
               ))}
@@ -44,7 +44,7 @@ export default function AdminDashboard() {
         </div>
         <div className="mt-6 text-right">
           <button disabled className="inline-flex items-center px-4 py-2 bg-gold text-white text-sm rounded-lg opacity-50 cursor-not-allowed">
-            Exporter (intégration Supabase à venir)
+            Exporter (integration Supabase a venir)
           </button>
         </div>
       </div>
