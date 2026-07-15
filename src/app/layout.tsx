@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'GED - Groupe d''Exercice en Droit',
-  description: 'Préparation aux concours, formations en art oratoire, synthèses fiscales et conseil juridique.',
+  title: "GED - Groupe d'Exercice en Droit",
+  description: 'Prï¿½paration aux concours, formations en art oratoire, synthï¿½ses fiscales et conseil juridique.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

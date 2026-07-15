@@ -15,8 +15,8 @@ export default function LeadCaptureForm() {
   if (submitted) {
     return (
       <div className="p-8 bg-green-50 border border-green-200 rounded-xl text-center">
-        <p className="text-green-800 font-semibold">Merci ! Votre demande a été envoyée.</p>
-        <p className="text-sm text-green-700 mt-2">Vous recevrez le lien de téléchargement par email.</p>
+        <p className="text-green-800 font-semibold">Merci ! Votre demande a ï¿½tï¿½ envoyï¿½e.</p>
+        <p className="text-sm text-green-700 mt-2">Vous recevrez le lien de tï¿½lï¿½chargement par email.</p>
       </div>
     );
   }
@@ -29,7 +29,7 @@ export default function LeadCaptureForm() {
           <input type="text" required value={form.nom} onChange={(e) => setForm({ ...form, nom: e.target.value })} className="mt-1 block w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm shadow-sm focus:border-royal-blue focus:ring-1 focus:ring-royal-blue" placeholder="Dupont" />
         </div>
         <div>
-          <label className="block text-sm font-medium text-slate-700">Prénom</label>
+          <label className="block text-sm font-medium text-slate-700">Prï¿½nom</label>
           <input type="text" required value={form.prenom} onChange={(e) => setForm({ ...form, prenom: e.target.value })} className="mt-1 block w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm shadow-sm focus:border-royal-blue focus:ring-1 focus:ring-royal-blue" placeholder="Jean" />
         </div>
       </div>
@@ -42,9 +42,9 @@ export default function LeadCaptureForm() {
         <input type="tel" value={form.whatsapp} onChange={(e) => setForm({ ...form, whatsapp: e.target.value })} className="mt-1 block w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm shadow-sm focus:border-royal-blue focus:ring-1 focus:ring-royal-blue" placeholder="+33 6 12 34 56 78" />
       </div>
       <Button type="submit" variant="primary" className="w-full">
-        Télécharger gratuitement la TEM 2026
+        Tï¿½lï¿½charger gratuitement la TEM 2026
       </Button>
-      <p className="text-xs text-slate-500 text-center">Vos données restent confidentielles et ne seront jamais partagées.</p>
+      <p className="text-xs text-slate-500 text-center">Vos donnï¿½es restent confidentielles et ne seront jamais partagï¿½es.</p>
     </form>
   );
 }

@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-slate-900">Contact & Clinique juridique</h1>
           <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-            Besoin d’un conseil ou d’une orientation juridique ? Nos experts vous écoutent et vous accompagnent gratuitement.
+            Besoin dï¿½un conseil ou dï¿½une orientation juridique ? Nos experts vous ï¿½coutent et vous accompagnent gratuitement.
           </p>
         </div>
         <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8 sm:p-12">
@@ -26,7 +26,7 @@ export default function Contact() {
           </div>
           <div>
             <div className="text-royal-blue text-3xl mb-2">??</div>
-            <h3 className="font-semibold text-slate-900">Téléphone</h3>
+            <h3 className="font-semibold text-slate-900">Tï¿½lï¿½phone</h3>
             <p className="text-sm text-slate-600">+33 1 23 45 67 89</p>
           </div>
         </div>

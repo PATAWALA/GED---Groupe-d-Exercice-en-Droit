@@ -15,8 +15,8 @@ export default function ContactForm() {
   if (sent) {
     return (
       <div className="p-8 bg-green-50 border border-green-200 rounded-xl text-center">
-        <p className="text-green-800 font-semibold">Message envoyé avec succès.</p>
-        <p className="text-sm text-green-700 mt-2">Notre équipe vous répondra sous 24h.</p>
+        <p className="text-green-800 font-semibold">Message envoyï¿½ avec succï¿½s.</p>
+        <p className="text-sm text-green-700 mt-2">Notre ï¿½quipe vous rï¿½pondra sous 24h.</p>
       </div>
     );
   }
@@ -43,7 +43,7 @@ export default function ContactForm() {
       </div>
       <div>
         <label className="block text-sm font-medium text-slate-700">Message</label>
-        <textarea rows={4} required value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className="mt-1 block w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm shadow-sm focus:border-royal-blue focus:ring-1 focus:ring-royal-blue" placeholder="Décrivez votre situation ou votre besoin..." />
+        <textarea rows={4} required value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className="mt-1 block w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm shadow-sm focus:border-royal-blue focus:ring-1 focus:ring-royal-blue" placeholder="Dï¿½crivez votre situation ou votre besoin..." />
       </div>
       <Button type="submit" variant="secondary" className="w-full">
         Envoyer ma demande

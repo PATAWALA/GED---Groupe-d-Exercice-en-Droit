@@ -2,20 +2,20 @@ import Button from '@/components/ui/Button';
 
 const formations = [
   {
-    title: 'Préparation au CRFPA',
-    description: 'Séances hebdomadaires, galops d’essai et méthodologie des épreuves écrites et orales.',
+    title: 'Prï¿½paration au CRFPA',
+    description: 'Sï¿½ances hebdomadaires, galops dï¿½essai et mï¿½thodologie des ï¿½preuves ï¿½crites et orales.',
     duration: '6 mois',
     level: 'Master 1 / Master 2',
   },
   {
     title: 'Concours de la magistrature (ENM)',
-    description: 'Préparation intensive aux épreuves d’admissibilité et d’admission, avec simulations d’audience.',
+    description: 'Prï¿½paration intensive aux ï¿½preuves dï¿½admissibilitï¿½ et dï¿½admission, avec simulations dï¿½audience.',
     duration: '8 mois',
     level: 'Master 2 / Doctorat',
   },
   {
     title: 'Art oratoire & plaidoirie',
-    description: 'Coaching individuel et collectif pour améliorer la prise de parole, la rhétorique et la confiance en soi.',
+    description: 'Coaching individuel et collectif pour amï¿½liorer la prise de parole, la rhï¿½torique et la confiance en soi.',
     duration: '2 mois',
     level: 'Tous niveaux',
   },
@@ -28,7 +28,7 @@ export default function Formations() {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-slate-900">Nos formations</h1>
           <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-            Des programmes exigeants, conçus par des professionnels du droit pour maximiser vos chances de succès.
+            Des programmes exigeants, conï¿½us par des professionnels du droit pour maximiser vos chances de succï¿½s.
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

@@ -6,14 +6,14 @@ export default function Publications() {
       <div className="max-w-6xl mx-auto px-4 py-16 sm:py-24 grid lg:grid-cols-2 gap-16 items-center">
         <div>
           <span className="text-sm font-semibold text-gold uppercase tracking-wider">Publication exclusive</span>
-          <h1 className="mt-2 text-4xl font-bold text-slate-900 sm:text-5xl">TEM 2026 : la synthèse fiscale incontournable</h1>
+          <h1 className="mt-2 text-4xl font-bold text-slate-900 sm:text-5xl">TEM 2026 : la synthï¿½se fiscale incontournable</h1>
           <p className="mt-6 text-lg text-slate-600 leading-relaxed">
-            Une analyse approfondie de la fiscalité locale à jour des dernières réformes. Conçue par des experts, elle vous donne les clés pour réussir vos épreuves écrites et briller en entretien.
+            Une analyse approfondie de la fiscalitï¿½ locale ï¿½ jour des derniï¿½res rï¿½formes. Conï¿½ue par des experts, elle vous donne les clï¿½s pour rï¿½ussir vos ï¿½preuves ï¿½crites et briller en entretien.
           </p>
           <ul className="mt-6 space-y-3 text-slate-700">
-            <li className="flex items-center gap-2"><span className="text-gold">?</span> Fiches thématiques par impôt</li>
-            <li className="flex items-center gap-2"><span className="text-gold">?</span> Cas pratiques corrigés</li>
-            <li className="flex items-center gap-2"><span className="text-gold">?</span> Mises à jour législatives 2025-2026</li>
+            <li className="flex items-center gap-2"><span className="text-gold">?</span> Fiches thï¿½matiques par impï¿½t</li>
+            <li className="flex items-center gap-2"><span className="text-gold">?</span> Cas pratiques corrigï¿½s</li>
+            <li className="flex items-center gap-2"><span className="text-gold">?</span> Mises ï¿½ jour lï¿½gislatives 2025-2026</li>
           </ul>
         </div>
         <div className="bg-light-bg rounded-2xl p-8 shadow-sm border border-slate-100">
